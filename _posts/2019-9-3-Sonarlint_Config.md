@@ -2,9 +2,6 @@
 layout: post
 title: SonarLint for VS Code configuration
 ---
-
-# SonarLint for VS Code configuration
-
 SonarLint is an IDE extension that helps you detect and fix quality issues as you write code. Like a spell checker, SonarLint squiggles flaws so that they can be fixed before committing code.
 
 List of steps to install and configure sonarlint in VS Code:
