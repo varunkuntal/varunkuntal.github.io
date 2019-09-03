@@ -1,10 +1,31 @@
----
-layout: post
-title: You're up and running!
----
+# SonarLint for VS Code configuration
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+SonarLint is an IDE extension that helps you detect and fix quality issues as you write code. Like a spell checker, SonarLint squiggles flaws so that they can be fixed before committing code.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+List of steps to install and configure sonarlint in VS Code:
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+1. Make sure you have the latest version of Microsoft Visual Studio Code (VS Code) installed in your system as older versions have compatiblity issues. Latest version as of 30 Aug, 2019 is 1.37.1.
+   
+   ![Image](../images/version.jpg)
+
+2. Click on the icon "Extensions" in the left pane of VS Code. Search for Sonarlint. Click on the button install.
+   
+   ![Image](../images/extension_search.jpg)
+
+3. After installation, go to File > Preferences > Settings > Extensions > Sonarlint and you'll find example settings related to Sonarlint. Click edit in settings.json.
+   
+   ![Image](../images/settings_path.jpg)
+
+4. Locate the path of Java Runtime Environment (jre) on your system. Usually it will look like the following.
+   
+   ![Image](../images/java_path.jpg)
+
+5. Create an entry in settings.json as shown.
+   
+   ![Image](../images/settings.jpg)
+
+6. You can now use Sonarlint to track bugs, issues in your code.
+   
+   ![Image](../images/sonarworking.jpg)
+
+
